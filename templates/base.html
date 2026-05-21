@@ -1,0 +1,360 @@
+{% load static %}
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %}Газпром Футбол{% endblock %}</title>
+    <meta name="description" content="Официальный сайт футбольной команды Газпрома: матчи, состав, медиа, арена и контакты клуба.">
+
+    <script>
+        document.documentElement.classList.add("js");
+        document.documentElement.classList.add("app-booting");
+        window.__appBootStartedAt = Date.now();
+    </script>
+
+    <style>
+        .js [data-ssr-fallback="true"] {
+            display: none !important;
+        }
+
+        html.app-booting,
+        html.app-booting body {
+            overflow: hidden;
+        }
+
+        #app-boot-splash {
+            --splash-bg-1: #020f1d;
+            --splash-bg-2: #04172e;
+            --splash-bg-3: #08264a;
+            --splash-accent: #0f75db;
+            --splash-accent-strong: #0d4ea5;
+            --splash-accent-light: #63d0ff;
+            --loader-size: 360px;
+            --disc-size: 216px;
+            --logo-width: 138px;
+
+            position: fixed;
+            inset: 0;
+            z-index: 9999;
+            display: grid;
+            place-items: center;
+            overflow: hidden;
+            background:
+                radial-gradient(circle at 50% 46%, rgba(15, 117, 219, 0.16), transparent 15%),
+                radial-gradient(circle at 50% 100%, rgba(99, 208, 255, 0.16), transparent 35%),
+                radial-gradient(circle at 12% 18%, rgba(99, 208, 255, 0.07), transparent 22%),
+                radial-gradient(circle at 88% 18%, rgba(15, 117, 219, 0.07), transparent 24%),
+                linear-gradient(180deg, var(--splash-bg-1) 0%, var(--splash-bg-2) 54%, var(--splash-bg-3) 100%);
+            transition: opacity .55s ease, visibility .55s ease;
+        }
+
+        #app-boot-splash::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background:
+                linear-gradient(rgba(255,255,255,.02) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255,255,255,.02) 1px, transparent 1px);
+            background-size: 70px 70px;
+            mask-image: radial-gradient(circle at center, rgba(0,0,0,.9), transparent 82%);
+            opacity: .14;
+            pointer-events: none;
+        }
+
+        #app-boot-splash::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at center, rgba(255,255,255,.02), transparent 62%);
+            pointer-events: none;
+        }
+
+        #app-boot-splash.is-hidden {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+        }
+
+        .app-boot-splash__ambient {
+            position: absolute;
+            border-radius: 999px;
+            filter: blur(100px);
+            pointer-events: none;
+            opacity: .42;
+        }
+
+        .app-boot-splash__ambient--left {
+            width: 420px;
+            height: 420px;
+            left: -120px;
+            top: 10px;
+            background: rgba(99, 208, 255, 0.12);
+            animation: splashAmbient 14s ease-in-out infinite;
+        }
+
+        .app-boot-splash__ambient--right {
+            width: 480px;
+            height: 480px;
+            right: -180px;
+            bottom: -60px;
+            background: rgba(15, 117, 219, 0.11);
+            animation: splashAmbient 18s ease-in-out infinite reverse;
+        }
+
+        .app-boot-splash__center {
+            position: relative;
+            z-index: 1;
+            display: grid;
+            place-items: center;
+        }
+
+        .app-boot-splash__loader {
+            position: relative;
+            width: var(--loader-size);
+            height: var(--loader-size);
+            display: grid;
+            place-items: center;
+        }
+
+        .app-boot-splash__aura,
+        .app-boot-splash__track,
+        .app-boot-splash__arc,
+        .app-boot-splash__pulse-ring,
+        .app-boot-splash__disc {
+            position: absolute;
+            border-radius: 999px;
+        }
+
+        .app-boot-splash__aura {
+            inset: 46px;
+            background:
+                radial-gradient(circle, rgba(99, 208, 255, 0.26), rgba(99, 208, 255, 0.08) 52%, transparent 76%);
+            filter: blur(22px);
+            opacity: .85;
+            animation: splashAura 2.9s ease-in-out infinite;
+        }
+
+        .app-boot-splash__track {
+            inset: 0;
+            border: 1px solid rgba(99, 208, 255, 0.16);
+            box-shadow:
+                inset 0 0 0 1px rgba(255,255,255,.01),
+                0 0 0 1px rgba(99,208,255,.02);
+        }
+
+        .app-boot-splash__track--inner {
+            inset: 38px;
+            border-color: rgba(15, 117, 219, 0.18);
+        }
+
+        .app-boot-splash__arc--outer {
+            inset: 0;
+            background:
+                conic-gradient(
+                    from 220deg,
+                    rgba(99,208,255,0) 0deg,
+                    rgba(99,208,255,0) 186deg,
+                    rgba(99,208,255,.12) 232deg,
+                    rgba(99,208,255,1) 292deg,
+                    rgba(99,208,255,.22) 328deg,
+                    rgba(99,208,255,0) 360deg
+                );
+            -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 10px), #000 calc(100% - 9px));
+            mask: radial-gradient(farthest-side, transparent calc(100% - 10px), #000 calc(100% - 9px));
+            filter: drop-shadow(0 0 20px rgba(99, 208, 255, 0.42));
+            animation: splashSpin 1.9s linear infinite;
+        }
+
+        .app-boot-splash__arc--inner {
+            inset: 38px;
+            background:
+                conic-gradient(
+                    from 34deg,
+                    rgba(15,117,219,0) 0deg,
+                    rgba(15,117,219,0) 205deg,
+                    rgba(255,255,255,.07) 248deg,
+                    rgba(15,117,219,.92) 306deg,
+                    rgba(99,208,255,.22) 334deg,
+                    rgba(15,117,219,0) 360deg
+                );
+            -webkit-mask: radial-gradient(farthest-side, transparent calc(100% - 8px), #000 calc(100% - 7px));
+            mask: radial-gradient(farthest-side, transparent calc(100% - 8px), #000 calc(100% - 7px));
+            filter: drop-shadow(0 0 16px rgba(15, 117, 219, 0.30));
+            animation: splashSpinReverse 3s linear infinite;
+        }
+
+        .app-boot-splash__pulse-ring {
+            inset: 64px;
+            border: 1px solid rgba(99, 208, 255, 0.18);
+            opacity: .7;
+            animation: splashPulseRing 2.2s ease-in-out infinite;
+        }
+
+        .app-boot-splash__disc {
+            width: var(--disc-size);
+            height: var(--disc-size);
+            display: grid;
+            place-items: center;
+            background:
+                radial-gradient(circle at 34% 30%, rgba(255,255,255,.08), rgba(255,255,255,.02) 28%, transparent 40%),
+                linear-gradient(180deg, rgba(7, 33, 64, 0.92), rgba(4, 20, 39, 0.90));
+            border: 1px solid rgba(255,255,255,.05);
+            box-shadow:
+                inset 0 1px 0 rgba(255,255,255,.04),
+                0 0 0 18px rgba(99,208,255,.03),
+                0 28px 60px rgba(0,0,0,.30);
+            animation: splashDisc 2.8s ease-in-out infinite;
+        }
+
+        .app-boot-splash__logo {
+            display: block;
+            width: var(--logo-width);
+            height: auto;
+            color: #ffffff;
+            filter:
+                drop-shadow(0 0 20px rgba(99,208,255,.14))
+                drop-shadow(0 10px 24px rgba(0,0,0,.18));
+            animation: splashLogo 2.6s ease-in-out infinite;
+            transform-origin: center;
+        }
+
+        @keyframes splashSpin {
+            to { transform: rotate(360deg); }
+        }
+
+        @keyframes splashSpinReverse {
+            to { transform: rotate(-360deg); }
+        }
+
+        @keyframes splashAura {
+            0%, 100% { transform: scale(.94); opacity: .56; }
+            50% { transform: scale(1.12); opacity: 1; }
+        }
+
+        @keyframes splashPulseRing {
+            0%, 100% { transform: scale(.94); opacity: .24; }
+            50% { transform: scale(1.09); opacity: .95; }
+        }
+
+        @keyframes splashDisc {
+            0%, 100% { transform: translateY(0) scale(.97); }
+            50% { transform: translateY(-4px) scale(1.04); }
+        }
+
+        @keyframes splashLogo {
+            0%, 100% { transform: scale(.96); opacity: .92; }
+            50% { transform: scale(1.10); opacity: 1; }
+        }
+
+        @keyframes splashAmbient {
+            0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+            50% { transform: translate3d(18px, 12px, 0) scale(1.06); }
+        }
+
+        @media (max-width: 900px) {
+            #app-boot-splash {
+                --loader-size: 300px;
+                --disc-size: 184px;
+                --logo-width: 118px;
+            }
+
+            .app-boot-splash__track--inner,
+            .app-boot-splash__arc--inner {
+                inset: 32px;
+            }
+
+            .app-boot-splash__pulse-ring {
+                inset: 56px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            #app-boot-splash {
+                --loader-size: 236px;
+                --disc-size: 144px;
+                --logo-width: 96px;
+                background:
+                    radial-gradient(circle at 50% 44%, rgba(15, 117, 219, 0.18), transparent 18%),
+                    radial-gradient(circle at 50% 100%, rgba(99, 208, 255, 0.18), transparent 38%),
+                    linear-gradient(180deg, var(--splash-bg-1) 0%, var(--splash-bg-2) 56%, var(--splash-bg-3) 100%);
+            }
+
+            #app-boot-splash::before {
+                background-size: 52px 52px;
+                opacity: .10;
+            }
+
+            .app-boot-splash__ambient--left {
+                width: 240px;
+                height: 240px;
+                left: -80px;
+                top: 20px;
+                filter: blur(70px);
+            }
+
+            .app-boot-splash__ambient--right {
+                width: 260px;
+                height: 260px;
+                right: -90px;
+                bottom: -40px;
+                filter: blur(70px);
+            }
+
+            .app-boot-splash__track--inner,
+            .app-boot-splash__arc--inner {
+                inset: 24px;
+            }
+
+            .app-boot-splash__pulse-ring {
+                inset: 42px;
+            }
+
+            .app-boot-splash__aura {
+                inset: 34px;
+                filter: blur(16px);
+            }
+        }
+
+        @media (max-width: 420px) {
+            #app-boot-splash {
+                --loader-size: 212px;
+                --disc-size: 130px;
+                --logo-width: 88px;
+            }
+
+            .app-boot-splash__track--inner,
+            .app-boot-splash__arc--inner {
+                inset: 22px;
+            }
+
+            .app-boot-splash__pulse-ring {
+                inset: 38px;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .app-boot-splash__ambient,
+            .app-boot-splash__aura,
+            .app-boot-splash__arc,
+            .app-boot-splash__pulse-ring,
+            .app-boot-splash__disc,
+            .app-boot-splash__logo {
+                animation: none !important;
+            }
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:wght@500;600;700;800&family=Golos+Text:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+    <link rel="stylesheet" href="{% static 'dist/react-app.css' %}">
+</head>
+    <body>
+    {% block content %}{% endblock %}
+    <script type="module" src="{% static 'dist/react-app.js' %}"></script>
+    </body>
+</html>

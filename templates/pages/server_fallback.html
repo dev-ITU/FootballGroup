@@ -1,0 +1,135 @@
+<div class="page-shell" data-ssr-fallback="true">
+    <header class="section-block">
+        <p class="eyebrow">{{ initial_payload.club.hero_badge|default:"Газпром футбольная программа" }}</p>
+        <p>
+            <a href="/">{{ initial_payload.club.short_name|default:"Газпром Футбол" }}</a>
+        </p>
+        <nav aria-label="Основная навигация">
+            <a href="/">Главная</a>
+            <a href="/team/">Команда</a>
+            <a href="/matches/">Матчи</a>
+            <a href="/media/">Медиа</a>
+            <a href="/contacts/">Контакты</a>
+        </nav>
+    </header>
+
+    {% if page_name == "home" %}
+    <section class="section-block">
+        <h1>{{ initial_payload.club.tagline|default:"Газпром Футбол" }}</h1>
+        <p>{{ initial_payload.club.mission }}</p>
+        {% if initial_payload.hero.featured_match %}
+        <h2>Следующий матч</h2>
+        <p>{{ initial_payload.club.short_name }} vs {{ initial_payload.hero.featured_match.opponent }}</p>
+        <p>{{ initial_payload.hero.featured_match.competition }} · {{ initial_payload.hero.featured_match.date_label }} · {{ initial_payload.hero.featured_match.time_label }}</p>
+        {% endif %}
+        {% if initial_payload.hero.featured_news %}
+        <h2>Новости</h2>
+        <ul>
+            {% for story in initial_payload.hero.featured_news %}
+            <li>{{ story.title }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {% if initial_payload.hero.featured_players %}
+        <h2>Игроки</h2>
+        <ul>
+            {% for player in initial_payload.hero.featured_players %}
+            <li>{{ player.full_name }}{% if player.position_label %} · {{ player.position_label }}{% endif %}{% if player.number %} · #{{ player.number }}{% endif %}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </section>
+    {% elif page_name == "team" %}
+    <section class="section-block">
+        <h1>Команда</h1>
+        <p>Состав сезона, капитан и основные игровые профили.</p>
+        {% if initial_payload.captain %}
+        <h2>Капитан</h2>
+        <p>{{ initial_payload.captain.full_name }} · #{{ initial_payload.captain.number }} · {{ initial_payload.captain.position_label }}</p>
+        {% endif %}
+        {% if initial_payload.groups %}
+        {% for group in initial_payload.groups %}
+        {% if group.players %}
+        <h2>{{ group.label }}</h2>
+        <ul>
+            {% for player in group.players %}
+            <li>{{ player.full_name }} · #{{ player.number }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {% endfor %}
+        {% endif %}
+    </section>
+    {% elif page_name == "matches" %}
+    <section class="section-block">
+        <h1>Матчи</h1>
+        <p>Календарь сезона, ближайшие встречи и результаты команды.</p>
+        {% if initial_payload.featured_match %}
+        <h2>Главный матч</h2>
+        <p>{{ initial_payload.featured_match.opponent }} · {{ initial_payload.featured_match.competition }}</p>
+        <p>{{ initial_payload.featured_match.date_label }} · {{ initial_payload.featured_match.time_label }} · {{ initial_payload.featured_match.venue }}</p>
+        {% endif %}
+        {% if initial_payload.matches %}
+        <h2>Календарь</h2>
+        <ul>
+            {% for match in initial_payload.matches %}
+            <li>{{ match.short_date_label|default:match.date_label }} · {{ match.opponent }} · {{ match.result_label }}{% if match.venue %} · {{ match.venue }}{% endif %}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </section>
+    {% elif page_name == "media" %}
+    <section class="section-block">
+        <h1>Медиа</h1>
+        <p>Новости клуба, фотоистории и публикации сезона.</p>
+        {% if initial_payload.lead_story %}
+        <h2>Главная история</h2>
+        <p>{{ initial_payload.lead_story.title }}</p>
+        <p>{{ initial_payload.lead_story.excerpt }}</p>
+        {% endif %}
+        {% if initial_payload.news_items %}
+        <h2>Публикации</h2>
+        <ul>
+            {% for story in initial_payload.news_items %}
+            <li>{{ story.title }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </section>
+    {% elif page_name == "contacts" %}
+    <section class="section-block">
+        <h1>Контакты</h1>
+        <p>{{ initial_payload.club.name }}</p>
+        <p>{{ initial_payload.club.city }} · {{ initial_payload.club.stadium }}</p>
+        <p>{{ initial_payload.club.address }}</p>
+        <p><a href="mailto:{{ initial_payload.club.email }}">{{ initial_payload.club.email }}</a></p>
+        <p><a href="tel:{{ initial_payload.club.phone }}">{{ initial_payload.club.phone }}</a></p>
+        {% if initial_payload.channels %}
+        <h2>Официальные каналы</h2>
+        <ul>
+            {% for channel in initial_payload.channels %}
+            {% if channel.url %}
+            <li><a href="{{ channel.url }}">{{ channel.label }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {% if initial_payload.recent_matches %}
+        <h2>Последние матчи</h2>
+        <ul>
+            {% for match in initial_payload.recent_matches %}
+            <li>{{ match.opponent }} · {{ match.result_label }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </section>
+    {% endif %}
+
+    <footer class="section-block">
+        <h2>{{ initial_payload.club.name|default:"Газпром Футбол" }}</h2>
+        <p>{{ initial_payload.club.stadium }} · {{ initial_payload.club.city }}</p>
+        <p>{{ initial_payload.club.address }}</p>
+        <p><a href="mailto:{{ initial_payload.club.email }}">{{ initial_payload.club.email }}</a></p>
+        <p><a href="tel:{{ initial_payload.club.phone }}">{{ initial_payload.club.phone }}</a></p>
+    </footer>
+</div>
