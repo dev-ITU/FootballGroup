@@ -36,10 +36,10 @@
     "stats_wins": 25,
     "stats_goals": 78,
     "stats_clean_sheets": 16,
-    "source_name": "",
-    "source_name_ru": "",
-    "source_name_en": "",
-    "source_url": ""
+    "source_name": "ФК «Зенит»",
+    "source_name_ru": "ФК «Зенит»",
+    "source_name_en": "FC Zenit",
+    "source_url": "https://en.fc-zenit.ru/"
   },
   "players": [
     {
@@ -78,8 +78,8 @@
       "bio": "Evgeniy Latyshonok is a goalkeeper for Zenit. Born 21.06.1998 in Giaginskaya. Citizenship: Russia. For the club: 40 matches, 3544 minutes, 0 goals.",
       "bio_ru": "Евгений Латышонок — вратарь «Зенита». Родился 21.06.1998 в Гиагинская. Гражданство: Россия. За клуб: 40 матчей, 3544 минуты, 0 голов.",
       "bio_en": "Evgeniy Latyshonok is a goalkeeper for Zenit. Born 21.06.1998 in Giaginskaya. Citizenship: Russia. For the club: 40 matches, 3544 minutes, 0 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/752/0sthjzcio9cyrbxh718mhagjn1lo2ltq.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/18220/"
     },
     {
       "full_name": "Denis Adamov",
@@ -117,8 +117,8 @@
       "bio": "Denis Adamov is a goalkeeper for Zenit. Born 20.02.1998 in Ulyanovsk. Citizenship: Russia. For the club: 51 matches, 4556 minutes, 0 goals.",
       "bio_ru": "Денис Адамов — вратарь «Зенита». Родился 20.02.1998 в Ульяновск. Гражданство: Россия. За клуб: 51 матч, 4556 минут, 0 голов.",
       "bio_en": "Denis Adamov is a goalkeeper for Zenit. Born 20.02.1998 in Ulyanovsk. Citizenship: Russia. For the club: 51 matches, 4556 minutes, 0 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/34c/g2puvleyobq1ou8v0158qsc3y2a3ks2a.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/18219/"
     },
     {
       "full_name": "Mikhail Kerzhakov",
@@ -156,8 +156,8 @@
       "bio": "Mikhail Kerzhakov is a goalkeeper for Zenit. Born 28.01.1987 in Kingisepp. Citizenship: Russia. For the club: 138 matches, 12219 minutes, 0 goals.",
       "bio_ru": "Михаил Кержаков — вратарь «Зенита». Родился 28.01.1987 в Кингисепп. Гражданство: Россия. За клуб: 138 матчей, 12219 минут, 0 голов.",
       "bio_en": "Mikhail Kerzhakov is a goalkeeper for Zenit. Born 28.01.1987 in Kingisepp. Citizenship: Russia. For the club: 138 matches, 12219 minutes, 0 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/215/cq15gpcoo9qnsyy1jd4v8u31g19ik1mc.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/12536/"
     },
     {
       "full_name": "Bogdan Moskvichev",
@@ -195,8 +195,8 @@
       "bio": "Bogdan Moskvichev is a goalkeeper for Zenit. Born 30.04.2004. Citizenship: Russia. For the club: 0 matches, 0 minutes, 0 goals.",
       "bio_ru": "Богдан Москвичёв — вратарь «Зенита». Родился 30.04.2004. Гражданство: Россия. За клуб: 0 матчей, 0 минут, 0 голов.",
       "bio_en": "Bogdan Moskvichev is a goalkeeper for Zenit. Born 30.04.2004. Citizenship: Russia. For the club: 0 matches, 0 minutes, 0 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/857/s92a7uepju7gwp3i6tgf2lk3jw2dqemt.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/16709/"
     },
     {
       "full_name": "Douglas Santos",
@@ -234,8 +234,8 @@
       "bio": "Douglas Santos is a defender for Zenit. Born 22.03.1994 in João Pessoa. Citizenship: Brazil/Russia. For the club: 234 matches, 19655 minutes, 9 goals.",
       "bio_ru": "Дуглас Сантос — защитник «Зенита». Родился 22.03.1994 в Джоãо Пессоа. Гражданство: Бразил/Руссиа. За клуб: 234 матча, 19655 минут, 9 голов.",
       "bio_en": "Douglas Santos is a defender for Zenit. Born 22.03.1994 in João Pessoa. Citizenship: Brazil/Russia. For the club: 234 matches, 19655 minutes, 9 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/bb3/qoz8ho9czj9l3x4mlcez97g10qwu10g8.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/santosduglas/"
     },
     {
       "full_name": "Yuri Gorshkov",
@@ -273,8 +273,8 @@
       "bio": "Yuri Gorshkov is a defender for Zenit. Born 13.03.1999 in Kondopoga. Citizenship: Russia. For the club: 41 matches, 2105 minutes, 2 goals.",
       "bio_ru": "Юрий Горшков — защитник «Зенита». Родился 13.03.1999 в Кондопога. Гражданство: Россия. За клуб: 41 матч, 2105 минут, 2 гола.",
       "bio_en": "Yuri Gorshkov is a defender for Zenit. Born 13.03.1999 in Kondopoga. Citizenship: Russia. For the club: 41 matches, 2105 minutes, 2 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/7c4/kmjzzehtfxnosjzawy99socjif92kdcp.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/goryur/"
     },
     {
       "full_name": "Vanja Drkusic",
@@ -312,8 +312,8 @@
       "bio": "Vanja Drkusic is a defender for Zenit. Born 30.10.1999 in Novo Mesto, Slovenia. Citizenship: Slovenia. For the club: 33 matches, 2094 minutes, 0 goals.",
       "bio_ru": "Ваня Дркушич — защитник «Зенита». Родился 30.10.1999 в Ново-Место, Словения. Гражданство: Словения. За клуб: 33 матча, 2094 минуты, 0 голов.",
       "bio_en": "Vanja Drkusic is a defender for Zenit. Born 30.10.1999 in Novo Mesto, Slovenia. Citizenship: Slovenia. For the club: 33 matches, 2094 minutes, 0 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/98b/31ri44blj4pujr2l3lq15xmefu57ix09.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/drkushich/"
     },
     {
       "full_name": "Vyacheslav Karavaev",
@@ -351,8 +351,8 @@
       "bio": "Vyacheslav Karavaev is a defender for Zenit. Born 20.05.1995 in Moscow. Citizenship: Russia. For the club: 166 matches, 12446 minutes, 4 goals.",
       "bio_ru": "Вячеслав Караваев — защитник «Зенита». Родился 20.05.1995 в Москва. Гражданство: Россия. За клуб: 166 матчей, 12446 минут, 4 гола.",
       "bio_en": "Vyacheslav Karavaev is a defender for Zenit. Born 20.05.1995 in Moscow. Citizenship: Russia. For the club: 166 matches, 12446 minutes, 4 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/8a7/s6a5yldnow31hibnfw24ip1oegy1gcix.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/14995/"
     },
     {
       "full_name": "Arsen Adamov",
@@ -390,8 +390,8 @@
       "bio": "Arsen Adamov is a defender for Zenit. Born 20.10.1999 in Nizhny Tagil. Citizenship: Russia. For the club: 30 matches, 1188 minutes, 1 goals.",
       "bio_ru": "Арсен Адамов — защитник «Зенита». Родился 20.10.1999 в Нижний Тагил. Гражданство: Россия. За клуб: 30 матчей, 1188 минут, 1 гол.",
       "bio_en": "Arsen Adamov is a defender for Zenit. Born 20.10.1999 in Nizhny Tagil. Citizenship: Russia. For the club: 30 matches, 1188 minutes, 1 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/776/9wgw0pr4byoy2bh30gzrj0ythzbqgkc5.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/adams135/"
     },
     {
       "full_name": "Nuraly Alip",
@@ -429,8 +429,8 @@
       "bio": "Nuraly Alip is a defender for Zenit. Born 22.12.1999 in Aktau, Kazakhstan. Citizenship: Kazakhstan. For the club: 113 matches, 7367 minutes, 3 goals.",
       "bio_ru": "Нуралы Алип — защитник «Зенита». Родился 22.12.1999 в Актау, Казахстан. Гражданство: Казахстан. За клуб: 113 матчей, 7367 минут, 3 гола.",
       "bio_en": "Nuraly Alip is a defender for Zenit. Born 22.12.1999 in Aktau, Kazakhstan. Citizenship: Kazakhstan. For the club: 113 matches, 7367 minutes, 3 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/45f/il0yspbifbangmj0432207m14g77rgw0.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/alip/"
     },
     {
       "full_name": "Nino",
@@ -468,8 +468,8 @@
       "bio": "Nino is a defender for Zenit. Born 10.04.1997 in Recife. Citizenship: Brazil. For the club: 73 matches, 6159 minutes, 4 goals.",
       "bio_ru": "Нино — защитник «Зенита». Родился 10.04.1997 в Ресифи. Гражданство: Бразилия. За клуб: 73 матча, 6159 минут, 4 гола.",
       "bio_en": "Nino is a defender for Zenit. Born 10.04.1997 in Recife. Citizenship: Brazil. For the club: 73 matches, 6159 minutes, 4 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/d68/u3lnewdy3vaa2i6ydbiqv87zuh10kha2.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/nino_z/"
     },
     {
       "full_name": "Roman Vega",
@@ -507,8 +507,8 @@
       "bio": "Roman Vega is a defender for Zenit. Born 01.01.2004 in Buenos Aires. Citizenship: Argentina. For the club: 17 matches, 1004 minutes, 0 goals.",
       "bio_ru": "Роман Вега — защитник «Зенита». Родился 01.01.2004 в Буэнос-Айрес. Гражданство: Аргентина. За клуб: 17 матчей, 1004 минуты, 0 голов.",
       "bio_en": "Roman Vega is a defender for Zenit. Born 01.01.2004 in Buenos Aires. Citizenship: Argentina. For the club: 17 matches, 1004 minutes, 0 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/a09/9hnnyth648q74t9fm7fcgo5v3ed2ot83.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/vega/"
     },
     {
       "full_name": "Igor Diveev",
@@ -546,8 +546,8 @@
       "bio": "Igor Diveev is a defender for Zenit. Born 27.09.1999 in Ufa. Citizenship: Russia. For the club: 5 matches, 339 minutes, 0 goals.",
       "bio_ru": "Игорь Дивеев — защитник «Зенита». Родился 27.09.1999 в Уфа. Гражданство: Россия. За клуб: 5 матчей, 339 минут, 0 голов.",
       "bio_en": "Igor Diveev is a defender for Zenit. Born 27.09.1999 in Ufa. Citizenship: Russia. For the club: 5 matches, 339 minutes, 0 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/9ff/2bpvwx90pep1qva3gjzi2krdqz6hr335.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/diveev/"
     },
     {
       "full_name": "Wilmar Barrios",
@@ -585,8 +585,8 @@
       "bio": "Wilmar Barrios is a midfielder for Zenit. Born 16.10.1993 in Cartagena de Indias. Citizenship: Colombia. For the club: 250 matches, 21135 minutes, 3 goals.",
       "bio_ru": "Вильмар Барриос — полузащитник «Зенита». Родился 16.10.1993 в Картахена-де-Индиас. Гражданство: Колумбия. За клуб: 250 матчей, 21135 минут, 3 гола.",
       "bio_en": "Wilmar Barrios is a midfielder for Zenit. Born 16.10.1993 in Cartagena de Indias. Citizenship: Colombia. For the club: 250 matches, 21135 minutes, 3 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/a5b/gw1ot17u59zf9mw3uni3e5j2lb5vmqoh.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/barrios/"
     },
     {
       "full_name": "Wendel",
@@ -624,8 +624,8 @@
       "bio": "Wendel is a midfielder for Zenit. Born 28.08.1997 in Duque de Caxias. Citizenship: Brazil. For the club: 170 matches, 13394 minutes, 25 goals.",
       "bio_ru": "Вендел — полузащитник «Зенита». Родился 28.08.1997 в Дуке-ди-Кашиас. Гражданство: Бразилия. За клуб: 170 матчей, 13394 минуты, 25 голов.",
       "bio_en": "Wendel is a midfielder for Zenit. Born 28.08.1997 in Duque de Caxias. Citizenship: Brazil. For the club: 170 matches, 13394 minutes, 25 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/47f/vfwn432pyb8jw1niib9ox32ej04xj5um.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/Wendel/"
     },
     {
       "full_name": "Maksim Glushenkov",
@@ -663,8 +663,8 @@
       "bio": "Maksim Glushenkov is a midfielder for Zenit. Born 28.07.1999 in Smolensk. Citizenship: Russia. For the club: 51 matches, 3209 minutes, 22 goals.",
       "bio_ru": "Максим Глушенков — полузащитник «Зенита». Родился 28.07.1999 в Смоленск. Гражданство: Россия. За клуб: 51 матч, 3209 минут, 22 гола.",
       "bio_en": "Maksim Glushenkov is a midfielder for Zenit. Born 28.07.1999 in Smolensk. Citizenship: Russia. For the club: 51 matches, 3209 minutes, 22 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/1bb/dqfgdwnh2jzeczwo58uyg3e0m9bh80la.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/glushenkov/"
     },
     {
       "full_name": "Luiz Henrique",
@@ -702,8 +702,8 @@
       "bio": "Luiz Henrique is a midfielder for Zenit. Born 02.01.2001 in Petropolis, Rio de Janeiro.. Citizenship: Brazil. For the club: 38 matches, 2791 minutes, 5 goals.",
       "bio_ru": "Луис Энрике — полузащитник «Зенита». Родился 02.01.2001 в Петрополис, Рио де Джанеиро.. Гражданство: Бразилия. За клуб: 38 матчей, 2791 минута, 5 голов.",
       "bio_en": "Luiz Henrique is a midfielder for Zenit. Born 02.01.2001 in Petropolis, Rio de Janeiro.. Citizenship: Brazil. For the club: 38 matches, 2791 minutes, 5 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/cf9/jrhw2ij6n7928guqnra05bnjlw1f96xs.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/enrike_l/"
     },
     {
       "full_name": "Jhon Jhon",
@@ -741,8 +741,8 @@
       "bio": "Jhon Jhon is a midfielder for Zenit. Born 09.09.2002 in Vitoria, Brazil. Citizenship: Brazil. For the club: 4 matches, 194 minutes, 1 goals.",
       "bio_ru": "Жон Жон — полузащитник «Зенита». Родился 09.09.2002 в Витория, Бразилия. Гражданство: Бразилия. За клуб: 4 матча, 194 минуты, 1 гол.",
       "bio_en": "Jhon Jhon is a midfielder for Zenit. Born 09.09.2002 in Vitoria, Brazil. Citizenship: Brazil. For the club: 4 matches, 194 minutes, 1 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/336/g6e1d0l4oy63eptgc9ewvwle7e2qkvdl.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/dzhon/"
     },
     {
       "full_name": "Andrey Mostovoy",
@@ -780,8 +780,8 @@
       "bio": "Andrey Mostovoy is a midfielder for Zenit. Born 05.11.1997 in Omsk. Citizenship: Russia. For the club: 201 matches, 9201 minutes, 44 goals.",
       "bio_ru": "Андрей Мостовой — полузащитник «Зенита». Родился 05.11.1997 в Омск. Гражданство: Россия. За клуб: 201 матч, 9201 минута, 44 гола.",
       "bio_en": "Andrey Mostovoy is a midfielder for Zenit. Born 05.11.1997 in Omsk. Citizenship: Russia. For the club: 201 matches, 9201 minutes, 44 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/3ed/jjiq535vwldxkbx5aljzk1z3qshoytq2.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/18096/"
     },
     {
       "full_name": "Yaroslav Mihailov",
@@ -819,8 +819,8 @@
       "bio": "Yaroslav Mihailov is a midfielder for Zenit. Born 28.04.2003. Citizenship: Russia. For the club: 8 matches, 477 minutes, 0 goals.",
       "bio_ru": "Ярослав Михайлов — полузащитник «Зенита». Родился 28.04.2003. Гражданство: Россия. За клуб: 8 матчей, 477 минут, 0 голов.",
       "bio_en": "Yaroslav Mihailov is a midfielder for Zenit. Born 28.04.2003. Citizenship: Russia. For the club: 8 matches, 477 minutes, 0 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/272/s0g6i6byo9xotq48tsb1ss0pa01s6q0s.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/15321/"
     },
     {
       "full_name": "Aleksander Erokhin",
@@ -858,8 +858,8 @@
       "bio": "Aleksander Erokhin is a midfielder for Zenit. Born 13.10.1989 in Barnaul. Citizenship: Russia. For the club: 269 matches, 11169 minutes, 45 goals.",
       "bio_ru": "Александр Ерохин — полузащитник «Зенита». Родился 13.10.1989 в Барнаул. Гражданство: Россия. За клуб: 269 матчей, 11169 минут, 45 голов.",
       "bio_en": "Aleksander Erokhin is a midfielder for Zenit. Born 13.10.1989 in Barnaul. Citizenship: Russia. For the club: 269 matches, 11169 minutes, 45 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/930/dhq7mv2r397w0hl7zv5g2wxhraw76gep.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/14019/"
     },
     {
       "full_name": "Gustavo Mantuan",
@@ -897,8 +897,8 @@
       "bio": "Gustavo Mantuan is a midfielder for Zenit. Born 20.06.2001 in Santo André. Citizenship: Brazil. For the club: 132 matches, 7043 minutes, 19 goals.",
       "bio_ru": "Густаво Мантуан — полузащитник «Зенита». Родился 20.06.2001 в Санто Андрé. Гражданство: Бразилия. За клуб: 132 матча, 7043 минуты, 19 голов.",
       "bio_en": "Gustavo Mantuan is a midfielder for Zenit. Born 20.06.2001 in Santo André. Citizenship: Brazil. For the club: 132 matches, 7043 minutes, 19 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/849/t6jonj430bwpwusradeb5y18h789v3nq.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/mantuan/"
     },
     {
       "full_name": "Daniil Kondakov",
@@ -936,8 +936,8 @@
       "bio": "Daniil Kondakov is a midfielder for Zenit. Born 06.03.2008 in Kursk. Citizenship: Russia. For the club: 6 matches, 290 minutes, 0 goals.",
       "bio_ru": "Даниил Кондаков — полузащитник «Зенита». Родился 06.03.2008 в Курск. Гражданство: Россия. За клуб: 6 матчей, 290 минут, 0 голов.",
       "bio_en": "Daniil Kondakov is a midfielder for Zenit. Born 06.03.2008 in Kursk. Citizenship: Russia. For the club: 6 matches, 290 minutes, 0 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/189/z430wxu8qk1o2u5qbq94kju7cdpcrg83.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/kondakov2008/"
     },
     {
       "full_name": "Aleksandr Sobolev",
@@ -975,8 +975,8 @@
       "bio": "Aleksandr Sobolev is a forward for Zenit. Born 07.03.1997 in Barnual. Citizenship: Russia. For the club: 59 matches, 2649 minutes, 19 goals.",
       "bio_ru": "Александр Соболев — нападающий «Зенита». Родился 07.03.1997 в Барнуал. Гражданство: Россия. За клуб: 59 матчей, 2649 минут, 19 голов.",
       "bio_en": "Aleksandr Sobolev is a forward for Zenit. Born 07.03.1997 in Barnual. Citizenship: Russia. For the club: 59 matches, 2649 minutes, 19 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/3e7/epai5fusvyj0f87crgrvpqq3eoosmnf2.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/sobolev/"
     },
     {
       "full_name": "Jhon Duran",
@@ -1014,8 +1014,8 @@
       "bio": "Jhon Duran is a forward for Zenit. Born 13.12.2003 in Zaragoza, Colombia. Citizenship: Colombia. For the club: 5 matches, 211 minutes, 2 goals.",
       "bio_ru": "Джон Дуран — нападающий «Зенита». Родился 13.12.2003 в Сарагоса, Колумбия. Гражданство: Колумбия. За клуб: 5 матчей, 211 минут, 2 гола.",
       "bio_en": "Jhon Duran is a forward for Zenit. Born 13.12.2003 in Zaragoza, Colombia. Citizenship: Colombia. For the club: 5 matches, 211 minutes, 2 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/0df/a23ptipxk8vvnlwu7yww2obn8ql1fu2w.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/duran/"
     },
     {
       "full_name": "Pedro",
@@ -1053,8 +1053,8 @@
       "bio": "Pedro is a forward for Zenit. Born 05.02.2006 in São Paulo. Citizenship: Brazil. For the club: 80 matches, 4766 minutes, 11 goals.",
       "bio_ru": "Педро — нападающий «Зенита». Родился 05.02.2006 в Сãо Пауло. Гражданство: Бразилия. За клуб: 80 матчей, 4766 минут, 11 голов.",
       "bio_en": "Pedro is a forward for Zenit. Born 05.02.2006 in São Paulo. Citizenship: Brazil. For the club: 80 matches, 4766 minutes, 11 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/f41/hlvm7iramfu6r4olzkrk7g39gbqnofpa.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/pedro_z/"
     },
     {
       "full_name": "Vadim Shilov",
@@ -1092,8 +1092,8 @@
       "bio": "Vadim Shilov is a forward for Zenit. Born 15.03.2008 in Belgorod, Russia. Citizenship: Russia. For the club: 8 matches, 212 minutes, 2 goals.",
       "bio_ru": "Вадим Шилов — нападающий «Зенита». Родился 15.03.2008 в Белгород, Россия. Гражданство: Россия. За клуб: 8 матчей, 212 минут, 2 гола.",
       "bio_en": "Vadim Shilov is a forward for Zenit. Born 15.03.2008 in Belgorod, Russia. Citizenship: Russia. For the club: 8 matches, 212 minutes, 2 goals.",
-      "remote_photo_url": "",
-      "source_url": ""
+      "remote_photo_url": "https://en.fc-zenit.ru/upload/iblock/b8f/rta70rickjkcs32ii97pd4r8t89zn7b7.png",
+      "source_url": "https://en.fc-zenit.ru/zenit/players/shilov-va/"
     }
   ],
   "news": [
@@ -1109,11 +1109,11 @@
       "body_en": "Club story from the media team.",
       "published_at": "2026-03-27T00:00:00+03:00",
       "featured": true,
-      "source_name": "",
-      "source_name_ru": "",
-      "source_name_en": "",
-      "source_url": "",
-      "remote_cover_url": ""
+      "source_name": "FC Zenit",
+      "source_name_ru": "ФК «Зенит»",
+      "source_name_en": "FC Zenit",
+      "source_url": "https://en.fc-zenit.ru/news/2026-03-27-konstantin-zyryanov-zhdem-kogda-shilov-prisoedinitsya-k-nam-chtoby-pokazyvat-svoy-yarkiy-futbol.htm",
+      "remote_cover_url": "https://en.fc-zenit.ru/upload/iblock/dfa/g5l2b2npt6aeeebq14mqfu18dcvsyzxu.jpg"
     },
     {
       "title": "Vadim Shilov extends his contact with Zenit",
@@ -1127,11 +1127,11 @@
       "body_en": "Club story from the media team.",
       "published_at": "2026-03-27T00:00:00+03:00",
       "featured": true,
-      "source_name": "",
-      "source_name_ru": "",
-      "source_name_en": "",
-      "source_url": "",
-      "remote_cover_url": ""
+      "source_name": "FC Zenit",
+      "source_name_ru": "ФК «Зенит»",
+      "source_name_en": "FC Zenit",
+      "source_url": "https://en.fc-zenit.ru/news/2026-03-27-zenit-prodlil-soglashenie-s-vadimom-shilovym.htm",
+      "remote_cover_url": "https://en.fc-zenit.ru/upload/iblock/3bb/1gi9m8p3o0tv1inibthrzwkzluod8jw7.jpg"
     },
     {
       "title": "Sergei Semak: \"We'd like to give the lads as much playing time as possible\"",
@@ -1145,11 +1145,11 @@
       "body_en": "Club story from the media team.",
       "published_at": "2026-03-26T00:00:00+03:00",
       "featured": true,
-      "source_name": "",
-      "source_name_ru": "",
-      "source_name_en": "",
-      "source_url": "",
-      "remote_cover_url": ""
+      "source_name": "FC Zenit",
+      "source_name_ru": "ФК «Зенит»",
+      "source_name_en": "FC Zenit",
+      "source_url": "https://en.fc-zenit.ru/news/2026-03-26-sergey-semak-nam-khochetsya-dat-vozmozhnost-sygrat-tem-kto-poluchaet-menshe-igrovoy-praktiki.htm",
+      "remote_cover_url": "https://en.fc-zenit.ru/upload/iblock/0fc/e20kx2y8xptkzo2ujm2bya3hzsg6yewy.jpg"
     },
     {
       "title": "Bogdan Moskvichev: \"I hope it will be my Zenit debut at the Gazprom Arena\"",
@@ -1163,11 +1163,11 @@
       "body_en": "Club story from the media team.",
       "published_at": "2026-03-26T00:00:00+03:00",
       "featured": false,
-      "source_name": "",
-      "source_name_ru": "",
-      "source_name_en": "",
-      "source_url": "",
-      "remote_cover_url": ""
+      "source_name": "FC Zenit",
+      "source_name_ru": "ФК «Зенит»",
+      "source_name_en": "FC Zenit",
+      "source_url": "https://en.fc-zenit.ru/news/2026-03-26-bogdan-moskvichev-nadeyus-debyutirovat-v-startovom-sostave.htm",
+      "remote_cover_url": "https://en.fc-zenit.ru/upload/iblock/2e1/zslb1nru4lo84g092qcx64ejt27b67b6.jpg"
     },
     {
       "title": "WINLINE Super Series: Zenit will play Kairat at Gazprom Arena",
@@ -1181,11 +1181,11 @@
       "body_en": "Club story from the media team.",
       "published_at": "2026-03-24T00:00:00+03:00",
       "featured": false,
-      "source_name": "",
-      "source_name_ru": "",
-      "source_name_en": "",
-      "source_url": "",
-      "remote_cover_url": ""
+      "source_name": "FC Zenit",
+      "source_name_ru": "ФК «Зенит»",
+      "source_name_en": "FC Zenit",
+      "source_url": "https://en.fc-zenit.ru/news/2026-03-24-winline-superseriya-zenit-sygraet-s-kayratom-na-gazprom-arene.htm",
+      "remote_cover_url": "https://en.fc-zenit.ru/upload/resize_cache/iblock/8b8/580_370_240cd750bba9870f18aada2478b24840a/iksqwld79ypwq51vlmbmnvqgbj2nlk2v.jpg"
     }
   ],
   "gallery_items": [
@@ -1197,14 +1197,14 @@
       "caption": "Председатель правления футбольного клуба «Зенит» — о новом соглашении с нападающим.",
       "caption_ru": "Председатель правления футбольного клуба «Зенит» — о новом соглашении с нападающим.",
       "caption_en": "The Chairman of the Zenit Board spoke to us about the forward’s new contract.",
-      "remote_image_url": "",
+      "remote_image_url": "https://en.fc-zenit.ru/upload/iblock/dfa/g5l2b2npt6aeeebq14mqfu18dcvsyzxu.jpg",
       "accent": "",
       "accent_ru": "",
       "accent_en": "",
-      "source_name": "",
-      "source_name_ru": "",
-      "source_name_en": "",
-      "source_url": ""
+      "source_name": "ФК «Зенит»",
+      "source_name_ru": "ФК «Зенит»",
+      "source_name_en": "FC Zenit",
+      "source_url": "https://en.fc-zenit.ru/news/2026-03-27-konstantin-zyryanov-zhdem-kogda-shilov-prisoedinitsya-k-nam-chtoby-pokazyvat-svoy-yarkiy-futbol.htm"
     },
     {
       "title": "«Зенит» продлил соглашение с Вадимом Шиловым",
@@ -1214,14 +1214,14 @@
       "caption": "Новый контракт с нападающим сине-бело-голубых действует до конца сезона-2030/31.",
       "caption_ru": "Новый контракт с нападающим сине-бело-голубых действует до конца сезона-2030/31.",
       "caption_en": "The 18-year-old forward has signed a deal to remain at the club until the end of the 2030/2031 season.",
-      "remote_image_url": "",
+      "remote_image_url": "https://en.fc-zenit.ru/upload/iblock/3bb/1gi9m8p3o0tv1inibthrzwkzluod8jw7.jpg",
       "accent": "",
       "accent_ru": "",
       "accent_en": "",
-      "source_name": "",
-      "source_name_ru": "",
-      "source_name_en": "",
-      "source_url": ""
+      "source_name": "ФК «Зенит»",
+      "source_name_ru": "ФК «Зенит»",
+      "source_name_en": "FC Zenit",
+      "source_url": "https://en.fc-zenit.ru/news/2026-03-27-zenit-prodlil-soglashenie-s-vadimom-shilovym.htm"
     },
     {
       "title": "Сергей Семак: «Нам хочется дать возможность сыграть тем, кто получает меньше игровой практики»",
@@ -1231,14 +1231,14 @@
       "caption": "Главный тренер петербуржцев рассказал о подготовке к матчу WINLINE Суперсерии с «Кайратом».",
       "caption_ru": "Главный тренер петербуржцев рассказал о подготовке к матчу WINLINE Суперсерии с «Кайратом».",
       "caption_en": "The Zenit manager spoke to the media ahead of the WINLINE Super Series match against Kairat.",
-      "remote_image_url": "",
+      "remote_image_url": "https://en.fc-zenit.ru/upload/iblock/0fc/e20kx2y8xptkzo2ujm2bya3hzsg6yewy.jpg",
       "accent": "",
       "accent_ru": "",
       "accent_en": "",
-      "source_name": "",
-      "source_name_ru": "",
-      "source_name_en": "",
-      "source_url": ""
+      "source_name": "ФК «Зенит»",
+      "source_name_ru": "ФК «Зенит»",
+      "source_name_en": "FC Zenit",
+      "source_url": "https://en.fc-zenit.ru/news/2026-03-26-sergey-semak-nam-khochetsya-dat-vozmozhnost-sygrat-tem-kto-poluchaet-menshe-igrovoy-praktiki.htm"
     },
     {
       "title": "Богдан Москвичёв: «Надеюсь дебютировать в стартовом составе»",
@@ -1248,14 +1248,14 @@
       "caption": "Голкипер петербуржцев рассказал об ожиданиях от матча WINLINE Суперсерии с казахстанским «Кайратом».",
       "caption_ru": "Голкипер петербуржцев рассказал об ожиданиях от матча WINLINE Суперсерии с казахстанским «Кайратом».",
       "caption_en": "The Zenit goalkeeper spoke to the media ahead of the WINLINE Super Series match against Kazakhstan's Kairat.",
-      "remote_image_url": "",
+      "remote_image_url": "https://en.fc-zenit.ru/upload/iblock/2e1/zslb1nru4lo84g092qcx64ejt27b67b6.jpg",
       "accent": "",
       "accent_ru": "",
       "accent_en": "",
-      "source_name": "",
-      "source_name_ru": "",
-      "source_name_en": "",
-      "source_url": ""
+      "source_name": "ФК «Зенит»",
+      "source_name_ru": "ФК «Зенит»",
+      "source_name_en": "FC Zenit",
+      "source_url": "https://en.fc-zenit.ru/news/2026-03-26-bogdan-moskvichev-nadeyus-debyutirovat-v-startovom-sostave.htm"
     },
     {
       "title": "WINLINE Суперсерия: «Зенит» сыграет с «Кайратом» на «Газпром Арене»",
@@ -1265,14 +1265,14 @@
       "caption": "Матч с участником Общего этапа Лиги чемпионов — 2025/26 пройдет 28 марта и начнется в 19:00 по петербургскому времени.",
       "caption_ru": "Матч с участником Общего этапа Лиги чемпионов — 2025/26 пройдет 28 марта и начнется в 19:00 по петербургскому времени.",
       "caption_en": "The match against the 2025/26 Champions League side will take place on 28 March at 7pm St. Petersburg time.",
-      "remote_image_url": "",
+      "remote_image_url": "https://en.fc-zenit.ru/upload/resize_cache/iblock/8b8/580_370_240cd750bba9870f18aada2478b24840a/iksqwld79ypwq51vlmbmnvqgbj2nlk2v.jpg",
       "accent": "",
       "accent_ru": "",
       "accent_en": "",
-      "source_name": "",
-      "source_name_ru": "",
-      "source_name_en": "",
-      "source_url": ""
+      "source_name": "ФК «Зенит»",
+      "source_name_ru": "ФК «Зенит»",
+      "source_name_en": "FC Zenit",
+      "source_url": "https://en.fc-zenit.ru/news/2026-03-24-winline-superseriya-zenit-sygraet-s-kayratom-na-gazprom-arene.htm"
     }
   ],
   "matches": [
